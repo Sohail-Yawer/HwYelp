@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="140dp" >
+
+                <TextView
+                    android:id="@+id/baddress_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="Address"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/bcost_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="Price Range"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+
+                    android:textAlignment="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="140dp" >
+
+                <TextView
+                    android:id="@+id/baddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/bcost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:text="TextView" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="140dp" >
+
+                <TextView
+                    android:id="@+id/bphonenumber_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="Phone Number"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/bstatus_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="Status"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="140dp" >
+
+                <TextView
+                    android:id="@+id/bphonenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textAlignment="center"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/bstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textAlignment="center"
+
+                    android:text="TextView" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="140dp" >
+
+                <TextView
+                    android:id="@+id/bcategory_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="Category"
+                    android:textColor="@color/black"
+
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/blink_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+
+                    android:textAlignment="center"
+                    android:text="Visit Yelp for info" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="140dp" >
+
+                <TextView
+                    android:id="@+id/bcategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/blink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="TextView" />
+            </TableRow>
+
+
+
+        </TableLayout>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="200dp"
+            android:layout_marginLeft="110dp"
+            android:layout_height="wrap_content"
+            android:text="Reserve" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="true">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="150dp"
+
+
+                android:src="@drawable/ic_launcher_background" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
